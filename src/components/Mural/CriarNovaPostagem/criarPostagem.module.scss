@@ -1,0 +1,54 @@
+.tela_mural{
+    margin: 1em 4em 5em 4em;
+    padding-bottom: 5em;
+
+}
+// <Voltar_________________Home/Mural
+
+.list_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1em;
+}
+
+.list_header h1 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.list_header h2 {
+    color: #245501;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.list_header__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 1em;
+    margin: 3em 0em 3em 0em;
+}
+
+.list_header__title_voltar {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+}
+
+.element.style {
+    color: transparent;
+}
+
+.list_header__title_voltar_link {
+    color: #000;
+}
+
+.list_header__title_guia {
+    display: flex;
+    align-items: center;
+}
+
