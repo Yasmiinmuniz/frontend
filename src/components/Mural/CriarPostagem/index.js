@@ -3,9 +3,7 @@ import style from './criarPostagem.module.scss';
 import Image from 'next/image';
 
 export default function CriarPostagem() {
-
-    return (
-
+    return (         
         <div className={style.tela_mural}>
             <div className={`${style.list_header}`}>
                 <div className={style.list_header__title}>
