@@ -17,6 +17,19 @@
     font-size: 1em;
     font-weight: bold;
 }
+
+.list_header h2 {
+    color: #A7A7A7;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.list_header h3 {
+    color: #245501;
+    font-size: 1em;
+    font-weight: bold;
+}
+
 .list_header__title {
     display: flex;
     justify-content: space-between;
@@ -84,6 +97,7 @@
 .list_header__title_criar_link{
     color: white;    
     border-bottom: none;
+    text-decoration: none;
 }
 
 // Publicação
