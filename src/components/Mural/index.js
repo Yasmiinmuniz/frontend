@@ -16,8 +16,8 @@ export default function mural() {
                         </a>
                     </div>
                     <div className={style.list_header__title_guia}>
-                        <h1>Home/</h1>
-                        <h1>Mural</h1>
+                        <h2>Home/</h2>
+                        <h3>Mural</h3>
                     </div>
                 </div>
             </div>
@@ -38,7 +38,7 @@ export default function mural() {
                     <p className={style.date}>24/02/2024</p>
                 </div>
                 <div className={style.card_publicacao__image}>
-                    <Image src="/assets/muralWalle.svg" alt="Visualizar" width={343} height={207} />
+                    <Image src="/assets/muralWalle.svg" resizeMode='contein' alt="Visualizar" width={343} height={207} />
                 </div>
             </selection>
 

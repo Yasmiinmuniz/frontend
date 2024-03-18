@@ -3,12 +3,12 @@ import Header from "@/components/Home/Header";
 import Mural from "@/components/Mural/index";
 import { disconnect } from "process";
 
-export default function muralPage(){
+export default function muralPage() {
     return (
         <div>
-            <Header/>
+            <Header />
             <Mural />
-            <Footer/>
+            <Footer />
         </div>
     )
 }
